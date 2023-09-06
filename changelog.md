@@ -1,3 +1,15 @@
+## [2.3.0](https://github.com/roggervalf/test-conventional-commits/compare/v2.2.1...v2.3.0) (2023-09-06)
+
+
+### Features
+
+* try to ignore by pattern on notes ([d70f9a5](https://github.com/roggervalf/test-conventional-commits/commit/d70f9a5b5906b511975a78d421554105459398eb))
+
+
+### Bug Fixes
+
+* try using python message rule ([922041d](https://github.com/roggervalf/test-conventional-commits/commit/922041d3e23edff1124d4432193b878292a6d531))
+
 ## [2.2.1](https://github.com/roggervalf/test-conventional-commits/compare/v2.2.0...v2.2.1) (2023-09-06)
 
 
