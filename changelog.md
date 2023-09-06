@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/roggervalf/test-conventional-commits/compare/v2.1.1...v2.2.0) (2023-09-06)
+
+
+### Features
+
+* **something:** python test ([9527a68](https://github.com/roggervalf/test-conventional-commits/commit/9527a68304a3885fdaa36fd79202965d241df5df))
+
 ## [2.1.1](https://github.com/roggervalf/test-conventional-commits/compare/v2.1.0...v2.1.1) (2023-09-06)
 
 
