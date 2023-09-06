@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/roggervalf/test-conventional-commits/compare/v1.0.3...v1.1.0) (2023-09-06)
+
+
+### Features
+
+* new feat example ([c8d7881](https://github.com/roggervalf/test-conventional-commits/commit/c8d788156c2ef33175e9c6f79f30d2717985ca38))
+
 ## [1.0.3](https://github.com/roggervalf/test-conventional-commits/compare/v1.0.2...v1.0.3) (2023-09-06)
 
 
