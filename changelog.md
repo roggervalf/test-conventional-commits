@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/roggervalf/test-conventional-commits/compare/v2.1.0...v2.1.1) (2023-09-06)
+
+
+### Bug Fixes
+
+* ignore python in body ([e395f51](https://github.com/roggervalf/test-conventional-commits/commit/e395f5173a8fa4ad7e003741a2ba45bf7c335b83))
+
 # [2.1.0](https://github.com/roggervalf/test-conventional-commits/compare/v2.0.0...v2.1.0) (2023-09-06)
 
 
