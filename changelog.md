@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/roggervalf/test-conventional-commits/compare/v2.0.0...v2.1.0) (2023-09-06)
+
+
+### Features
+
+* use conventionalcommits ([9f17b16](https://github.com/roggervalf/test-conventional-commits/commit/9f17b161e3843daa63291cc75e75a620a163420f))
+
 # [2.0.0](https://github.com/roggervalf/test-conventional-commits/compare/v1.1.0...v2.0.0) (2023-09-06)
 
 
