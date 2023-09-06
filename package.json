@@ -1,0 +1,93 @@
+
+{
+  "name": "test-conventional-commits",
+  "version": "1.0.0",
+  "description": "Try conventional commit by using semantic-release",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roggervalf/test-conventional-commits.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roggervalf/test-conventional-commits/issues"
+  },
+  "homepage": "https://github.com/roggervalf/test-conventional-commits#readme",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "cm": "git cz",
+    "dry-run": "npm publish --dry-run",
+    "prepublishOnly": "yarn build",
+    "prepare": "husky install",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.5",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "commitizen": "^4.2.5",
+    "husky": "^8.0.1",
+    "npm-run-all": "^4.1.5",
+    "semantic-release": "^19.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "release": {
+    "plugins": [
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "releaseRules": [
+            {
+              "scope": "python*",
+              "release": false
+            }
+          ]
+        }
+      ],
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "./changelog.md"
+        }
+      ],
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      "@semantic-release/github",
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "package.json",
+            "yarn.lock"
+          ],
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ]
+    ]
+  }
+}
+
