@@ -1,3 +1,15 @@
+## [2.2.1](https://github.com/roggervalf/test-conventional-commits/compare/v2.2.0...v2.2.1) (2023-09-06)
+
+
+### Bug Fixes
+
+* try to remove commitlint and add python in body ([#2](https://github.com/roggervalf/test-conventional-commits/issues/2)) ([6f3494b](https://github.com/roggervalf/test-conventional-commits/commit/6f3494bd69cb4e4aabe5c57570de43c6bfe2bd6b))
+
+
+### Reverts
+
+* try to remove commitlint and add python in body ([#3](https://github.com/roggervalf/test-conventional-commits/issues/3)) ([9000fe1](https://github.com/roggervalf/test-conventional-commits/commit/9000fe15ef3e2bec1337f22b9de804040cabf1a0))
+
 # [2.2.0](https://github.com/roggervalf/test-conventional-commits/compare/v2.1.1...v2.2.0) (2023-09-06)
 
 
