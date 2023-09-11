@@ -1,3 +1,11 @@
+## [2.3.1](https://github.com/roggervalf/test-conventional-commits/compare/v2.3.0...v2.3.1) (2023-09-11)
+
+
+### Bug Fixes
+
+* **ci:** test new rule to skip [python] ([3e1d19a](https://github.com/roggervalf/test-conventional-commits/commit/3e1d19afb45316ea8c491bc66fe47857b0d2e8f9))
+* **ci:** test new rule, this time should release (python) ([e3a5de5](https://github.com/roggervalf/test-conventional-commits/commit/e3a5de5edcb39f4a6447f86e9be1251b650d19d7))
+
 ## [2.3.0](https://github.com/roggervalf/test-conventional-commits/compare/v2.2.1...v2.3.0) (2023-09-06)
 
 

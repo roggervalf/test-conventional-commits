@@ -1,6 +1,6 @@
 {
   "name": "test-conventional-commits",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Try conventional commit by using semantic-release",
   "main": "index.js",
   "repository": {
